@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(139, 41, 41);
+    height: max;
+    
+}
+.first{
+    position: relative;
+}
+.title{
+    position: absolute;
+    width: 189px;
+    height: 80px;
+    left: 215px;
+    top: -17px;
+
+    font-family: 'Lemonada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.uy{position: absolute;
+width: 75px;
+height: 75px;
+left: 126px;
+top: 20px;
+border-radius: 339.5px;
+}
+.img2{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1319px;
+    top: 20px;
+
+}
+.search{
+    position: relative;   
+}
+input{
+    position: absolute;
+    width: 376px;
+    height: 44px;
+    left: 552px;
+    top: 76px;
+
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+.ql{
+    position: relative;
+}
+.header{
+    position: absolute;
+    width: 1640px;
+    height: 48px;
+    left: -10px;
+    top: 170px;
+    background-color: white;
+}
+.qwe{
+    position: relative;
+}
+.home{
+    position: absolute;
+    width: 93px;
+    height: 36px;
+    left: 136px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+}
+.menu{
+    position: absolute;
+    width: 93px;
+    height: 36px;
+    left: 376px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+    
+}
+.loca{
+    position: absolute;
+    width: 93px;
+    height: 36px;
+    left: 656px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+}
+.contact{
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 956px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+}
+.about{
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 1316px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    
+}

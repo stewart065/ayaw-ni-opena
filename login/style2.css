@@ -1,0 +1,152 @@
+.fadein { 
+    position:relative; 
+    margin: 10px;
+    padding: 10px;
+    top:920px;
+    height:432px; 
+    width:600px; 
+    }
+
+     .fadein img{
+    position:absolute;
+    width: calc(86%);
+    height: calc(84%);
+    object-fit: scale-down;
+    left: 100px;
+    }
+    
+    .fadein2 { 
+    position:relative; 
+    margin: 10px;
+    padding: 10px;
+    top:915px;
+    height:432px; 
+    width:600px; 
+    }
+
+     .fadein2 img{
+    position:absolute;
+    width: calc(86%);
+    height: calc(84%);
+    object-fit: scale-down;
+    left: 800px;
+    }
+    .imgf{
+            position: relative;
+    }
+    .vlp{
+            position: absolute;
+            width: 1240px;
+            height: 325px;
+            left: 98px;
+            top: -605px;
+    }
+    .ml{
+            position:relative; 
+    }
+    .text1{
+           position: absolute;
+            width: 984px;
+            height: 120px;
+            left: 230px;
+            top: -280px;
+
+            font-family: 'Lemonada';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 60px;
+            text-align: center;
+
+            color: #FFFFFF;
+    }
+    .rom{
+            position: relative;
+    }
+    .ui{
+            position: absolute;
+            top:-70px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 36px;
+            left: 110px;
+            color: #fff;
+    }
+    .rom2{
+            position: relative;
+    }
+    .ui2{
+            position: absolute;
+            top: 390px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 36px;
+            left: 910px;
+            color: #fff;
+    }
+   
+    @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+                    h1 {
+                    font-family: "Montserrat small";
+                    max-width: 40ch;
+                   
+                    position: absolute;
+                    text-align: center;
+                    left:690px;
+                    top:-24px;
+                    color:#ffff;
+                    transform: scale(0.94);
+                    
+                    animation: scale 6s forwards cubic-bezier(0.6, 1, 0.69, 1);
+                    }
+                    .fhl{
+                            
+                            position: relative;
+                            
+                    }
+                    @keyframes scale {
+                    100% {
+                    transform: scale(1);
+                    }
+                    }
+
+                    span {
+                            
+                    display: inline-block;
+                    opacity: 0;
+                    left:230px;
+                    filter: blur(4px);
+                    }
+
+                    span:nth-child(1) {
+                    animation: fade-in 1.15s 0.2s forwards cubic-bezier(0.11, 0.3, 0.5, 1);
+                    }
+
+                    span:nth-child(2) {
+                    animation: fade-in 0.9s 0.3s forwards cubic-bezier(0.11, 0.3, 0.5, 1);
+                    }
+
+                    span:nth-child(3) {
+                    animation: fade-in 1.0s 0.5s forwards cubic-bezier(0.11, 0.3, 0.5, 1);
+                    }
+                    
+
+                   
+
+                    @keyframes fade-in {
+                    100% {
+                    opacity: 1;
+                    filter: blur(0);
+                    }
+                    }
+                
+
+
+
+
+ 

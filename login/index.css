@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(139, 41, 41);
+    display: flex;
+    justify-content: center;
+    height: 96vh;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.ty{
+    position: relative;
+    
+}
+button {
+    position: absolute;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    left: 240px;
+    top: 18px;
+
+    
+    
+    
+  
+  }
+  
+  button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+   
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+  form{
+    width: 600px;
+    height: 700px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 20px #000;
+    border-radius: 20px;
+    background: rgb(189, 185, 185);
+    
+  }
+  h2{
+       
+       
+        margin-top: 80px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        left: 54px;
+        top: 48px;
+  }
+  h1{
+        text-align: center;
+        bottom: 60px;
+        left: 500px;
+  }
+  input{
+    display: block;
+    border: 3px solid rgb(164, 161, 161);
+    width: 60%;
+    height: 52px;
+    padding: 13px;
+    margin: 9px auto;
+    border-radius: 10px;
+    
+  }
+  .hk{
+    position: relative;
+    
+  }
+  p{
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 127px;
+    top: 63px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.6;
+  }
+  .img{
+    position: relative;
+  }
+  img{
+    position: absolute;
+      width: 85px;
+        height: 85px;
+        left: 249px;
+       
+        bottom: 70px;
+  }
+  .sg{
+    position: relative;
+  }
+  a{
+    position: absolute;
+width: 350px;
+height: 40px;
+left: 125px;
+top: 133px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 28px;
+text-align: center;
+  }
+  
